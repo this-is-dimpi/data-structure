@@ -1,3 +1,4 @@
+#include"tree.h"
 int count_leaf_node(Node *root){
 	if(root!=NULL){
 		return 0;

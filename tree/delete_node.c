@@ -1,7 +1,8 @@
-Noode  *delete_node(Node *root,int ele){
+#include "tree.h"
+Node *delete_node(Node *root,int ele){
 	Node *temp=NULL;
 	if(root==NULL){
-		perror("Node:\n");
+		return NULL;
 	}else{
 		if(ele<=root->left){
 			root->left=delete_node(root->left,ele);

@@ -1,4 +1,5 @@
-int depth_of_tree(Node *root,int ele){
+#include "tree.h"
+int depth(Node *root,int ele){
 	if(root==NULL){
 		return 1;
 	}else if(ele >root->data){
